@@ -1,0 +1,898 @@
+{
+  "settings": {
+    "brandName": "Gabriela Dourado",
+    "subBrandName": "Golden Essence by Gabriela Dourado",
+    "slogan": "A beleza de ser você.",
+    "whatsappNumber": "5534999999999",
+    "whatsappDefaultMessage": "Olá! Conheci seu trabalho pelo site e gostaria de saber um pouquinho mais sobre os procedimentos.",
+    "instagramHandle": "@gabrieladourado",
+    "instagramUrl": "https://instagram.com/",
+    "email": "contato@gabrieladourado.com.br",
+    "location": "Uberlândia, MG",
+    "addressDetails": "Atendimento com hora marcada em espaço planejado para o seu conforto em Uberlândia - MG.",
+    "businessHours": "Segunda a Sexta, das 9h às 19h | Sábados sob agendamento",
+    "crbm": "Biomédica Esteta • CRBM-3 (Configurável no Painel)",
+    "googleAnalyticsId": ""
+  },
+  "home": {
+    "hero": {
+      "badge": "Biomedicina Estética & Cuidado Consciente",
+      "title": "A beleza de ser você.",
+      "subtitle": "Ciência, cuidado e individualidade em cada detalhe da sua pele.",
+      "description": "Um espaço para descobrir, aprender e conhecer novas possibilidades de cuidado sem padrões engessados e no tempo que a sua pele precisa.",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Retrato editorial com iluminação natural valorizando a textura real da pele",
+      "primaryCtaText": "Conhecer procedimentos",
+      "primaryCtaLink": "/procedimentos",
+      "secondaryCtaText": "Conhecer Golden Essence",
+      "secondaryCtaLink": "/golden-essence"
+    },
+    "goldenEssenceSection": {
+      "signature": "by Gabriela Dourado",
+      "title": "Golden Essence",
+      "subtitle": "Coleção autoral de protocolos de cuidados com a pele",
+      "description": "Golden Essence nasceu da vontade de transformar o cuidado com a pele em uma experiência mais consciente e individualizada.",
+      "secondParagraph": "Uma coleção de protocolos pensados para diferentes necessidades da pele, unindo conhecimento científico, técnica e atenção genuína aos detalhes. Porque cada pele tem sua própria história — e o cuidado deve começar entendendo isso.",
+      "imageUrl": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Texturas de skincare e cuidado delicado com a pele Golden Essence",
+      "ctaText": "Conheça a coleção",
+      "ctaLink": "/golden-essence"
+    },
+    "proceduresSection": {
+      "eyebrow": "Cuidado & Ciência",
+      "title": "Procedimentos pensados para a sua individualidade",
+      "description": "Antes de qualquer técnica, existe uma conversa. Conheça os procedimentos que realizo e entenda, de forma leve e descomplicada, como cada um conversa com a biologia da sua pele.",
+      "ctaText": "Ver todos os procedimentos"
+    },
+    "beautyEditSection": {
+      "eyebrow": "Revista Digital de Beleza",
+      "title": "The Beauty Edit",
+      "description": "Um espaço para conversar sobre pele, beleza e tudo o que existe por trás delas. Curiosidades, ciência descomplicada, rotina e tendências para ler no seu tempo.",
+      "ctaText": "Explore nossos conteúdos"
+    },
+    "aboutSection": {
+      "eyebrow": "Quem está por trás do cuidado",
+      "title": "Oi, eu sou a Gabriela!",
+      "paragraphs": [
+        "Gosto de estudar, descobrir coisas novas e entender tudo o que acontece por trás dos cuidados com a pele.",
+        "Por aqui, quero compartilhar um pouquinho desse universo e mostrar que ciência e beleza podem caminhar juntas, de uma forma leve, honesta e acessível.",
+        "Acredito que cuidar da pele não precisa ser motivo de ansiedade ou busca por perfeição. É sobre conhecer a si mesma e escolher o que faz sentido para você."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Gabriela Dourado em retrato acolhedor e natural",
+      "ctaText": "Muito prazer, Gabriela!",
+      "ctaLink": "/sobre"
+    },
+    "contactBanner": {
+      "eyebrow": "Diálogo aberto",
+      "title": "Está pensando em cuidar da sua pele?",
+      "description": "Vamos conversar sobre o que faz sentido para você. Sem pressa e com um olhar atento para o momento atual da sua pele.",
+      "ctaText": "Entre em contato"
+    }
+  },
+  "about": {
+    "heroTitle": "Muito prazer, Gabriela!",
+    "heroSubtitle": "Apaixonada pela fisiologia da pele, pelas conversas sinceras no consultório e pela beleza que existe quando você se reconhece no espelho.",
+    "heroImageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1100&q=85",
+    "heroImageAlt": "Retrato profissional de Gabriela Dourado",
+    "personalIntro": [
+      "Oi! Que alegria receber você por aqui. Se a gente estivesse conversando pessoalmente agora, provavelmente eu já teria te oferecido um café ou um chá enquanto te perguntava como a sua pele tem se comportado nos últimos dias.",
+      "Desde cedo, sempre fui aquela pessoa curiosa que não se contentava apenas em saber que um produto ou tratamento 'funcionava' — eu queria entender o porquê. O que acontece lá dentro das células? Por que a nossa pele reage ao estresse, ao clima, às fases da nossa vida?",
+      "Criei este espaço digital justamente porque sentia falta de um lugar na internet onde a gente pudesse falar sobre estética e skincare com embasamento científico, mas sem aquele tom distante de palestra ou aquelas promessas irreais que só geram insegurança."
+    ],
+    "biomedicineRelationTitle": "Minha relação com a Biomedicina e a estética",
+    "biomedicineRelationText": [
+      "A Biomedicina me ensinou a enxergar o corpo humano com fascínio e respeito. Quando mergulhei na estética, percebi que a pele não é uma tela em branco para ser transformada em outra coisa: ela é um órgão vivo, inteligente e cheio de memória.",
+      "Para mim, trabalhar com estética nunca foi sobre padronizar rostos ou apagar cada linha de expressão. É sobre saúde tecidual, qualidade de pele, equilíbrio da barreira cutânea e estímulo natural. Quando compreendemos a biologia da pele, percebemos que menos excesso e mais estratégia trazem resultados muito mais bonitos e duradouros."
+    ],
+    "visionTitle": "Minha visão sobre beleza e cuidados com a pele",
+    "visionQuote": "A estética deve respeitar a sua individualidade, nunca impor padrões ou criar novas inseguranças.",
+    "visionText": [
+      "Sabe quando você olha no espelho e sente que a sua pele está descansada, viçosa e saudável? É exatamente esse o lugar que busco alcançar junto com cada paciente.",
+      "Poros existem, texturas são reais e a nossa pele muda ao longo do ano. Não acredito em 'pele perfeita de filtro'. Acredito em uma pele bem cuidada, compreendida e tratada com paciência, ciência e gentileza.",
+      "Quando você se senta para conversar comigo em uma avaliação, meu objetivo principal é te ouvir e te explicar o que está acontecendo na sua pele, para decidirmos juntas cada passo — no seu ritmo e dentro da sua rotina real."
+    ],
+    "timelineTitle": "Trajetória & Formação",
+    "timelineSubtitle": "Uma caminhada construída com estudo constante, prática ética e curiosidade científica.",
+    "educationTimeline": [
+      {
+        "yearOrPeriod": "Graduação",
+        "title": "Bacharelado em Biomedicina",
+        "institution": "Formação Acadêmica Superior",
+        "description": "Base sólida em fisiologia humana, bioquímica, histologia, imunologia e processos inflamatórios e reparadores do tecido cutâneo."
+      },
+      {
+        "yearOrPeriod": "Habilitação & Especialização",
+        "title": "Biomedicina Estética",
+        "institution": "Especialização em Saúde Estética e Cosmetologia",
+        "description": "Aprofundamento em procedimentos minimamente invasivos, peelings químicos avançados, indução percutânea de colágeno e manejo de disfunções estéticas."
+      },
+      {
+        "yearOrPeriod": "Desenvolvimento Autoral",
+        "title": "Criação da Coleção Golden Essence",
+        "institution": "Protocolos Autorais by Gabriela Dourado",
+        "description": "Desenvolvimento de protocolos personalizados que unem preparo de barreira, renovação controlada e regeneração tecidual respeitando a individualidade de cada pele."
+      },
+      {
+        "yearOrPeriod": "Educação Científica",
+        "title": "Idealização do The Beauty Edit",
+        "institution": "Comunicação Científica em Beleza & Skincare",
+        "description": "Tradução de artigos científicos e consensos dermatológicos para uma linguagem próxima, acessível e livre de terrorismo estético."
+      }
+    ],
+    "qualificationsTitle": "Áreas de estudo contínuo e aperfeiçoamento",
+    "qualifications": [
+      "Fisiopatologia da Acne e Manejo de Hiperpigmentação Pós-Inflamatória (Manchas)",
+      "Química Cosmética, Ativos Dermatológicos e Prescrição de Rotina de Skincare",
+      "Peelings Químicos Sequenciais e Renovação Celular Segura",
+      "Indução Percutânea de Colágeno (Microagulhamento) e Cicatrizes Atróficas",
+      "Recuperação e Fortalecimento da Barreira Cutânea e Microbioma da Pele",
+      "Gerenciamento do Envelhecimento Cutâneo com Foco em Naturalidade"
+    ],
+    "goldenEssenceCalloutTitle": "Golden Essence: o cuidado assinado por mim",
+    "goldenEssenceCalloutText": "Da união entre o que estudo nos artigos científicos e o que observo na prática com cada paciente, nasceu a Golden Essence: uma coleção autoral de protocolos pensados para ouvir e respeitar o tempo da sua pele."
+  },
+  "goldenEssencePage": {
+    "heroTitle": "Golden Essence",
+    "heroSignature": "by Gabriela Dourado",
+    "heroConceptParagraphs": [
+      "Golden Essence nasceu da vontade de transformar o cuidado com a pele em uma experiência mais consciente e individualizada.",
+      "Uma coleção de protocolos pensados para diferentes necessidades da pele, unindo conhecimento, técnica e atenção aos detalhes.",
+      "Cada pele tem sua história. E o cuidado deve começar entendendo isso."
+    ],
+    "heroImageUrl": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85",
+    "evaluationSectionTitle": "Por que todo protocolo Golden Essence começa com uma avaliação?",
+    "evaluationSectionText": [
+      "Você já tentou usar o mesmo produto que deu super certo na pele de uma amiga, mas na sua não funcionou — ou até sensibilizou? Com os protocolos em consultório acontece a mesma coisa.",
+      "Mesmo dentro da coleção Golden Essence, nenhuma sessão é engessada. Antes de escolher entre uma higienização profunda, um peeling químico ou o microagulhamento, nós avaliamos como está a sua barreira cutânea, seu histórico, sua rotina de sol e o que a sua pele realmente consegue receber naquele momento."
+    ],
+    "evaluationCtaText": "Quero conhecer os protocolos"
+  },
+  "goldenEssenceProtocols": [
+    {
+      "id": "ge-limpeza",
+      "slug": "essential-purify-limpeza-de-pele",
+      "order": 1,
+      "published": true,
+      "commercialName": "Essential Purify • Limpeza de Pele Botânica & Reparadora",
+      "technicalCategory": "Limpeza de Pele",
+      "tagline": "Equilíbrio, desobstrução delicada e restauração da barreira cutânea.",
+      "imageUrl": "https://images.unsplash.com/photo-1512290900672-1f84d171c222?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Cuidado facial delicado durante protocolo de limpeza de pele",
+      "shortDescription": "Muito além da extração tradicional: um protocolo pensado para higienizar profundamente os poros enquanto acalma, hidrata e fortalece a barreira natural da sua pele.",
+      "fullDescription": "Muita gente guarda a lembrança de que limpeza de pele precisa doer, deixar o rosto extremamente vermelho por dias ou ressecar a pele. Na coleção Golden Essence, a limpeza de pele é vista como o primeiro passo de saúde cutânea: removemos comedões (cravos), células acumuladas e impurezas com técnica delicada e emoliência adequada, priorizando ativos calmantes e reparadores para que você saia com a pele limpa, macia e equilibrada.",
+      "objective": "Desobstruir os poros com segurança, remover o excesso de sebo oxidado e impurezas, diminuir o aspecto de congestão e devolver o viço e a receptividade da pele para a rotina diária de skincare.",
+      "skinNeeds": [
+        "Presença de comedões abertos e fechados (cravos) e miliuns",
+        "Pele com aspecto opaco, espesso ou congestionado",
+        "Oleosidade descompensada na zona T",
+        "Preparo da pele antes de iniciar protocolos como peelings ou microagulhamento",
+        "Manutenção periódica da saúde e higiene dos poros"
+      ],
+      "howItWorks": "O protocolo atua em sinergia com a fisiologia da pele. Em vez de agredir a superfície com atrito excessivo, utilizamos agentes emolientes e biocompatíveis que amolecem o conteúdo dos poros, facilitando uma extração precisa e cuidadosa. Em seguida, aplicamos ativos calmantes, antioxidantes e restauradores da função barreira.",
+      "steps": [
+        {
+          "stepNumber": "01",
+          "title": "Inspeção da Pele & Higienização Suave",
+          "description": "Observação detalhada da condição atual da pele e limpeza com tensoativos suaves que removem resíduos sem alterar o pH fisiológico."
+        },
+        {
+          "stepNumber": "02",
+          "title": "Afinamento Controlado & Emoliência",
+          "description": "Preparação do estrato córneo e amolecimento dos comedões para que a extração seja confortável e preserve a integridade do tecido."
+        },
+        {
+          "stepNumber": "03",
+          "title": "Extração Técnica e Cuidadosa",
+          "description": "Remoção seletiva de comedões e miliuns respeitando os limites da pele — sem manipular lesões inflamadas que não devem ser espremidas."
+        },
+        {
+          "stepNumber": "04",
+          "title": "Ação Calmante, Reidratação e Fotoproteção",
+          "description": "Aplicação de máscara calmante rica em ativos reparadores e finalização com hidratação equilibrada e proteção solar."
+        }
+      ],
+      "expectedBenefits": [
+        "Poros visivelmente mais limpos e descongestionados",
+        "Sensação de pele fresca, macia e com textura mais uniforme",
+        "Melhor absorção e desempenho dos produtos da sua rotina em casa",
+        "Redução na formação de novos cravos e obstruções",
+        "Equilíbrio entre controle de oleosidade e hidratação"
+      ],
+      "preCare": [
+        "Suspender o uso de ácidos domiciliares fortes (como ácido retinoico) de 3 a 5 dias antes, conforme orientação prévia.",
+        "Evitar exposição solar intensa ou bronzeamento nos dias que antecedem a sessão.",
+        "Informar sobre todos os cosméticos e medicamentos que estiver utilizando atualmente."
+      ],
+      "postCare": [
+        "Utilizar sabonete suave e hidratante calmante nas primeiras 48 horas.",
+        "Aplicar protetor solar diariamente e evitar exposição direta ao sol.",
+        "Retomar o uso de ácidos ou esfoliantes em casa somente após o período indicado na sessão (geralmente 3 a 5 dias).",
+        "Não manipular ou cutucar a pele em casa."
+      ],
+      "contraindicationsAndLimitations": [
+        "Presença de infecções ativas na pele (como herpes simples em fase ativa ou impetigo).",
+        "Pele extremamente sensibilizada, com queimadura solar recente ou dermatite descompensada.",
+        "Acne inflamatória severa (graus elevados com nódulos/cistos profundos exigem manejo específico sem extração mecânica das lesões inflamadas).",
+        "Alergia conhecida a algum componente específico da formulação (sempre avaliamos antes)."
+      ],
+      "individualEvaluationNote": "Cada pele reage de um jeito único. Na nossa avaliação inicial, ajustamos os ativos, o tempo de emoliência e a máscara finalizadora exatamente para o seu tipo de pele — seja ela oleosa, mista, seca ou sensível.",
+      "faqs": [
+        {
+          "question": "A limpeza de pele dói ou deixa o rosto muito marcado?",
+          "answer": "Nosso foco é o conforto e o respeito ao tecido. Com uma emoliência bem feita e técnica delicada, o desconforto é mínimo. Uma leve vermelhidão logo após a extração é natural da circulação local, mas utilizamos máscaras calmantes que já deixam a pele muito mais tranquila ao final da sessão."
+        },
+        {
+          "question": "De quanto em quanto tempo devo fazer?",
+          "answer": "Não existe uma regra fixa para todo mundo! Peles mais oleosas e com tendência a cravos costumam se beneficiar a cada 30 ou 45 dias, enquanto peles equilibradas ou secas podem fazer em intervalos maiores, de 60 a 90 dias."
+        }
+      ]
+    },
+    {
+      "id": "ge-peeling",
+      "slug": "lumina-renew-peelings-quimicos",
+      "order": 2,
+      "published": true,
+      "commercialName": "Lumina Renew • Peelings Químicos Inteligentes",
+      "technicalCategory": "Peelings Químicos",
+      "tagline": "Renovação celular gradual, uniformização do tom e estímulo da luminosidade natural.",
+      "imageUrl": "https://images.unsplash.com/photo-1608248597359-0e6d526a6c58?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Textura de sérum e ativos para peeling químico personalizado",
+      "shortDescription": "Protocolos personalizados com ácidos selecionados para conversar com a necessidade da sua pele — tratando manchas, textura, oleosidade e viço sem agressões desnecessárias.",
+      "fullDescription": "Você já ouviu falar que peeling bom é apenas aquele que faz a pele descamar em placas? Na ciência atual da estética, já sabemos que não é bem assim! Um peeling químico inteligente utiliza soluções ácidas em concentrações e pHs cuidadosamente escolhidos para estimular a renovação das células, ajudar no controle da produção de melanina (manchas) e melhorar a textura da pele — muitas vezes com descamação sutil ou quase imperceptível.",
+      "objective": "Promover a renovação controlada das camadas superficiais da pele, auxiliar no clareamento progressivo de manchas (como hiperpigmentação pós-inflamatória de acne e melasma), controlar a oleosidade e devolver luminosidade.",
+      "skinNeeds": [
+        "Manchinhas deixadas por espinhas (hiperpigmentação pós-inflamatória)",
+        "Alterações de pigmentação e tom irregular da pele",
+        "Acne comedoniana ou inflamatória leve a moderada",
+        "Textura irregular, poros aparentes e perda do viço natural",
+        "Linhas finas superficiais e sinais iniciais de fotoenvelhecimento"
+      ],
+      "howItWorks": "Através da aplicação controlada de agentes químicos (como alfa-hidroxiácidos, beta-hidroxiácidos ou combinações despigmentantes e antioxidantes), diminuímos a coesão entre as células mais antigas da superfície da pele e sinalizamos para as camadas basais produzirem células novas e mais organizadas, além de modularmos processos inflamatórios e pigmentares.",
+      "steps": [
+        {
+          "stepNumber": "01",
+          "title": "Avaliação de Barreira & Preparo da Pele",
+          "description": "Verificação da integridade cutânea, higienização e proteção das áreas mais delicadas (como cantos dos olhos, nariz e lábios)."
+        },
+        {
+          "stepNumber": "02",
+          "title": "Aplicação Personalizada de Ativos",
+          "description": "Escolha e aplicação do agente químico ideal para o seu fototipo e objetivo, monitorando o tempo de ação e a resposta da pele a cada minuto."
+        },
+        {
+          "stepNumber": "03",
+          "title": "Neutralização & Equilíbrio",
+          "description": "Quando aplicável ao tipo de ácido, realizamos a neutralização segura e o reequilíbrio imediato do pH da pele."
+        },
+        {
+          "stepNumber": "04",
+          "title": "Suporte Reparador & Orientação Domiciliar",
+          "description": "Finalização com ativos calmantes, fotoproteção e entrega das orientações claras para cuidar da pele nos dias seguintes em casa."
+        }
+      ],
+      "expectedBenefits": [
+        "Uniformização gradual da tonalidade da pele e suavização de manchas",
+        "Toque mais liso, macio e renovado",
+        "Controle equilibrado do brilho excessivo e da acne",
+        "Aumento visível do viço e da luminosidade (efeito glow saudável)",
+        "Estímulo à renovação epidérmica com respeito à segurança do seu fototipo"
+      ],
+      "preCare": [
+        "Passar por avaliação prévia para definir se há necessidade de preparo da pele nas semanas anteriores.",
+        "Pausar o uso de ácidos, esfoliantes físicos ou procedimentos depilatórios no rosto de 5 a 7 dias antes.",
+        "Manter a pele bem hidratada e protegida do sol."
+      ],
+      "postCare": [
+        "Hidratação caprichada com produtos reparadores indicados especificamente para o pós-procedimento.",
+        "Uso rigoroso de protetor solar, reaplicando ao longo do dia.",
+        "Jamais puxar pelinhas caso ocorra descamação — deixar que saiam naturalmente durante a lavagem suave.",
+        "Evitar fontes de calor intenso (vapor quente, sauna, sol direto) nos primeiros dias."
+      ],
+      "contraindicationsAndLimitations": [
+        "Gestação e lactação (dependendo do ativo químico; apenas ativos específicos e liberados médica/cientificamente podem ser avaliados).",
+        "Exposição solar intensa recente ou impossibilidade de evitar o sol nos dias seguintes.",
+        "Feridas abertas, herpes ativo ou dermatites em crise na região facial.",
+        "Uso recente ou atual de isotretinoína oral (requer avaliação criteriosa de histórico e prazo).",
+        "Importante: manchas como o melasma são condições crônicas; o peeling auxilia no controle e clareamento, mas exige manutenção contínua e fotoproteção."
+      ],
+      "individualEvaluationNote": "Nem todo ácido serve para toda pele ou para toda época do ano. A escolha do peeling da linha Lumina Renew depende diretamente do seu fototipo, da sensibilidade da sua pele e da sua rotina.",
+      "faqs": [
+        {
+          "question": "Todo peeling químico faz a pele descamar muito?",
+          "answer": "Não! Isso é um dos maiores mitos da estética. A eficácia de um peeling não é medida pelo tamanho das casquinhas que saem, mas pela sinalização celular que o ativo promove. Muitos peelings modernos promovem uma renovação microscópica super eficiente sem atrapalhar a sua rotina social."
+        },
+        {
+          "question": "Quantas sessões são necessárias?",
+          "answer": "Como prezamos pela segurança e pelo respeito à fisiologia da pele, trabalhamos frequentemente com protocolos progressivos. Durante a avaliação, conversamos sobre uma estimativa de sessões de acordo com o objetivo da sua pele."
+        }
+      ]
+    },
+    {
+      "id": "ge-microagulhamento",
+      "slug": "dermal-revive-microagulhamento",
+      "order": 3,
+      "published": true,
+      "commercialName": "Dermal Revive • Microagulhamento & Bioestímulo Tecidual",
+      "technicalCategory": "Microagulhamento",
+      "tagline": "Estímulo natural de colágeno, remodelação de textura e entrega inteligente de ativos.",
+      "imageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Cuidado especializado de regeneração da pele e estímulo de colágeno",
+      "shortDescription": "Um protocolo de indução percutânea de colágeno associado a ativos estéreis selecionados para melhorar cicatrizes de acne, poros dilatados, textura e firmeza.",
+      "fullDescription": "Sabe quando a espinha vai embora, mas deixa aquelas marquinhas fundas (cicatrizes atróficas), ou quando você sente que a textura da pele perdeu um pouco da firmeza e uniformidade? O protocolo Dermal Revive utiliza o microagulhamento técnico para conversar diretamente com os fibroblastos — as células responsáveis por produzir colágeno e elastina na nossa pele — associado ao 'drug delivery', que é a permeação de ativos estéreis através dos microcanais recém-criados.",
+      "objective": "Estimular a síntese natural de colágeno e elastina, reorganizar as fibras da derme, suavizar cicatrizes atróficas de acne, refinar a textura global da pele e potencializar a entrega de ativos regeneradores.",
+      "skinNeeds": [
+        "Cicatrizes atróficas de acne (marquinhas com relevo na pele)",
+        "Poros dilatados e textura irregular",
+        "Prevenção e cuidado de linhas finas e perda inicial de firmeza",
+        "Suporte no tratamento de manchas resistentes (quando bem indicado e com pele preparada)",
+        "Pele desvitalizada que busca remodelação estrutural"
+      ],
+      "howItWorks": "Através de microperfurações estéreis, precisas e controladas na pele, desencadeamos uma cascata fisiológica natural de reparo tecidual dividida em três fases: inflamatória controlada, proliferativa e de remodelamento. Ao mesmo tempo, os microcanais aumentam significativamente a permeação de ativos estéreis (como fatores de crescimento, ácido hialurônico e peptídeos), otimizando a resposta biológica.",
+      "steps": [
+        {
+          "stepNumber": "01",
+          "title": "Preparo Asséptico & Conforto",
+          "description": "Higienização rigorosa, antissepsia da pele e aplicação de anestésico tópico para que o procedimento seja tranquilo e confortável."
+        },
+        {
+          "stepNumber": "02",
+          "title": "Microagulhamento Técnico Controlado",
+          "description": "Realização das microperfurações com dispositivo estéril de uso único, ajustando a profundidade para cada região anatômica do rosto."
+        },
+        {
+          "stepNumber": "03",
+          "title": "Drug Delivery de Ativos Estéreis",
+          "description": "Aplicação imediata de soluções estéreis biocompatíveis que aproveitam os microcanais para agir profundamente no tecido."
+        },
+        {
+          "stepNumber": "04",
+          "title": "Acalmia & Orientações de Regeneração",
+          "description": "Cuidado finalizador calmante e entrega do guia completo de cuidados para as primeiras 24 a 72 horas."
+        }
+      ],
+      "expectedBenefits": [
+        "Melhora progressiva no relevo de cicatrizes de acne",
+        "Pele com aspecto mais firme, denso e uniforme",
+        "Suavização da aparência de poros dilatados e linhas finas",
+        "Renovação da qualidade global da pele a médio e longo prazo"
+      ],
+      "preCare": [
+        "Passar obrigatoriamente por avaliação prévia para preparo da barreira cutânea.",
+        "Suspender ácidos e produtos irritantes de 5 a 7 dias antes da sessão.",
+        "Não estar com a pele bronzeada ou sensibilizada pelo sol."
+      ],
+      "postCare": [
+        "Nas primeiras 24 horas, seguir estritamente as orientações de higienização e usar apenas os produtos reparadores indicados.",
+        "Não aplicar maquiagem ou protetor solar convencional nas primeiras 24 horas (enquanto os microcanais se fecham), retomando a fotoproteção rigorosa em seguida conforme orientação.",
+        "Evitar sol, piscina, mar, suor intenso (academia) e contato de mãos ou animais de estimação no rosto nos primeiros dias.",
+        "Manter a pele muito bem hidratada durante toda a fase de regeneração."
+      ],
+      "contraindicationsAndLimitations": [
+        "Acne inflamatória ativa (espinhas com pus ou nódulos inflamados no local não podem ser microagulhados para não espalhar bactérias).",
+        "Tendência comprovada a queloides ou cicatrização hipertrófica descontrolada.",
+        "Infecções ativas na pele (como herpes labial ativo), rosácea em fase inflamatória aguda ou dermatites.",
+        "Distúrbios de coagulação ou uso de anticoagulantes sem liberação médica, gestação e imunossupressão.",
+        "O remodelamento do colágeno é um processo biológico gradual que leva semanas após cada sessão."
+      ],
+      "individualEvaluationNote": "O microagulhamento é um procedimento incrível, mas exige que a sua pele esteja pronta para produzir colágeno! Na avaliação, verificamos se precisamos controlar espinhas ativas ou hidratar a barreira antes de agendar a sua sessão.",
+      "faqs": [
+        {
+          "question": "Em quanto tempo começo a ver a diferença na pele?",
+          "answer": "Logo na primeira ou segunda semana você já nota um viço bonito pela renovação superficial. Porém, o verdadeiro estímulo e remodelamento do colágeno novo na derme acontecem de forma gradual entre 21 e 90 dias após a sessão!"
+        },
+        {
+          "question": "Se eu tiver espinhas ativas, posso fazer microagulhamento?",
+          "answer": "Se houver espinhas inflamadas ativas na região, primeiro nós cuidamos de desinflamar e controlar a acne (com limpeza e peelings, por exemplo). Só depois que a pele estiver sem infecção ativa é que entramos com o microagulhamento para tratar as marquinhas e cicatrizes."
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "id": "proc-avaliacao",
+      "slug": "avaliacao-cutanea-e-planejamento-skincare",
+      "order": 1,
+      "published": true,
+      "featuredOnHome": true,
+      "name": "Avaliação Cutânea & Planejamento de Cuidados",
+      "category": "Consulta & Diagnóstico Estético",
+      "shortDescription": "Nosso ponto de partida: uma conversa detalhada para entender a história da sua pele, avaliar suas necessidades reais e organizar sua rotina e seus tratamentos.",
+      "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Análise cuidadosa de produtos de skincare e consulta personalizada",
+      "presentation": "Você já comprou vários produtos de skincare porque viu alguém indicando na internet e, no fim, sentiu que a sua pele continuou na mesma — ou ficou ainda mais confusa? A Avaliação Cutânea existe justamente para tirar você do ciclo de tentativa e erro.",
+      "whatIsIt": "É uma consulta individualizada onde olhamos para a sua pele com calma e critério científico. Mais do que classificar sua pele apenas como 'oleosa' ou 'seca', avaliamos como está a sua barreira cutânea, seu nível de hidratação, sensibilidade, presença de manchas, acne, textura e como a sua rotina de vida (sono, estresse, exposição solar, alimentação) conversa com tudo isso.",
+      "howItWorks": "Começamos com uma conversa acolhedora para ouvir o que você sente na sua pele e quais são os seus objetivos. Analisamos os produtos que você já tem em casa (sim, adoro aproveitar o que já funciona para você!) e realizamos a inspeção física da pele. A partir disso, desenhamos juntas um plano claro de cuidados diários e, se fizer sentido, indicamos os procedimentos em consultório.",
+      "indications": [
+        "Quem deseja começar a cuidar da pele do zero, sem gastar com produtos desnecessários",
+        "Pessoas que convivem com acne, cravos recorrentes ou oleosidade difícil de equilibrar",
+        "Quem notou o surgimento de manchas (pós-espinhas ou solares/melasma) e quer tratar com segurança",
+        "Quem quer prevenir sinais de envelhecimento de forma natural e consciente",
+        "Primeiro passo essencial antes de realizar protocolos como peelings ou microagulhamento"
+      ],
+      "expectedBenefits": [
+        "Clareza sobre o que a sua pele realmente precisa hoje",
+        "Uma rotina de skincare descomplicada, possível de manter no seu dia a dia",
+        "Economia de tempo e dinheiro ao evitar produtos incompatíveis com a sua pele",
+        "Planejamento seguro e personalizado de procedimentos estéticos"
+      ],
+      "howItIsPerformed": "Realizada em consultório com hora marcada, em um ambiente tranquilo. Trazemos explicações didáticas para que você entenda o papel de cada etapa sugerida — sem listas intermináveis de dez passos impossíveis de seguir.",
+      "preCare": [
+        "Se puder, traga fotos (ou os próprios frascos) dos produtos que você usa atualmente na pele.",
+        "No dia da avaliação, dê preferência por vir com a pele limpa ou com maquiagem leve para facilitar a visualização da textura real."
+      ],
+      "postCare": [
+        "Você recebe as orientações organizadas de forma clara para consultar sempre que tiver dúvida.",
+        "Mantemos um canal aberto para acompanhar como a sua pele se adapta às primeiras semanas."
+      ],
+      "contraindications": [
+        "Não há contraindicações! Toda pele pode (e merece) ser ouvida e avaliada com carinho."
+      ],
+      "faqs": [
+        {
+          "question": "Vou precisar trocar todos os meus produtos de skincare?",
+          "answer": "De jeito nenhum! Meu objetivo é otimizar o que você já tem. Se um sabonete ou protetor que você usa já atende bem à sua pele, nós mantemos na rotina e ajustamos apenas o que for realmente necessário."
+        },
+        {
+          "question": "Já faço algum procedimento no mesmo dia da avaliação?",
+          "answer": "Depende da condição da sua pele e da nossa agenda! Se a sua pele estiver íntegra e apta, alguns protocolos (como a limpeza de pele ou hidratação reparadora) podem ser iniciados logo em seguida, ou agendamos para o melhor momento."
+        }
+      ]
+    },
+    {
+      "id": "proc-limpeza",
+      "slug": "limpeza-de-pele-personalizada",
+      "order": 2,
+      "published": true,
+      "featuredOnHome": true,
+      "name": "Limpeza de Pele Personalizada",
+      "category": "Higienização & Equilíbrio",
+      "shortDescription": "Remoção cuidadosa de cravos e impurezas com foco em preservar a barreira cutânea, acalmar a pele e devolver a maciez.",
+      "imageUrl": "https://images.unsplash.com/photo-1512290900672-1f84d171c222?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Procedimento de limpeza de pele com cuidado e iluminação suave",
+      "presentation": "Esqueça aquela ideia de que limpeza de pele é um procedimento padrão igual para todo mundo. A sua pele em uma semana mais seca de inverno não precisa exatamente dos mesmos ativos que em uma semana quente de verão.",
+      "whatIsIt": "É um procedimento clínico-estético voltado para a higienização profunda dos folículos pilossebáceos (os famosos poros). Ele remove o sebo oxidado (cravos pretos), comedões fechados (cravos brancos), células mortas acumuladas e miliuns, utilizando cosméticos escolhidos de acordo com o estado atual da sua pele.",
+      "howItWorks": "Todos os dias a nossa pele produz sebo para se proteger e renova suas células. Quando esse sebo se mistura com restos celulares e poluição, ele pode obstruir a saída do poro e oxidar em contato com o ar. A limpeza de pele utiliza agentes emolientes que 'destravam' esses poros com delicadeza, permitindo a extração segura sem machucar o tecido ao redor.",
+      "indications": [
+        "Presença de cravos (comedões) no nariz, queixo, testa ou bochechas",
+        "Pele áspera ao toque, opaca ou com sensação de 'poros entupidos'",
+        "Auxílio no controle da acne grau I e II (prevenindo que cravos virem espinhas inflamadas)",
+        "Preparo da pele antes de outros procedimentos estéticos"
+      ],
+      "expectedBenefits": [
+        "Diminuição imediata de cravos e miliuns",
+        "Pele mais limpa, respirando melhor e com toque aveludado",
+        "Prevenção de processos inflamatórios causados por poros obstruídos",
+        "Sensação de frescor e renovação com respeito à sensibilidade da pele"
+      ],
+      "howItIsPerformed": "O atendimento passa pelas etapas de higienização, esfoliação suave ou peeling enzimático leve, emoliência, extração técnica manual/instrumental cuidadosa, aplicação de ativos calmantes e máscara facial específica, finalizando com proteção solar.",
+      "preCare": [
+        "Pausar o uso de ácidos noturnos fortes cerca de 3 a 5 dias antes.",
+        "Evitar esfoliar o rosto em casa na semana do procedimento."
+      ],
+      "postCare": [
+        "Usar sabonete neutro/suave e hidratante reparador nos primeiros dias.",
+        "Caprichar no protetor solar diariamente.",
+        "Evitar maquiagem pesada nas primeiras 24 horas se a pele tiver passado por muitas extrações."
+      ],
+      "contraindications": [
+        "Lesões infecciosas ativas no local (como herpes ativo).",
+        "Queimaduras solares recentes ou pele extremamente sensibilizada."
+      ],
+      "faqs": [
+        {
+          "question": "Por que não devo espremer os cravos em casa no espelho?",
+          "answer": "Em casa, sem a emoliência adequada e a angulação correta, a pressão das unhas muitas vezes rompe a parede do folículo lá dentro da pele, gerando uma inflamação forte que vira espinha ou deixa uma mancha escura difícil de sair."
+        }
+      ]
+    },
+    {
+      "id": "proc-peeling",
+      "slug": "peeling-quimico",
+      "order": 3,
+      "published": true,
+      "featuredOnHome": true,
+      "name": "Peeling Químico",
+      "category": "Renovação Celular & Manchas",
+      "shortDescription": "Você sabe o que acontece com a pele quando fazemos um peeling? Ativos selecionados que estimulam a renovação celular e tratam manchas, acne e viço.",
+      "imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Gotas de ativo cosmético e cuidado científico de peeling químico",
+      "presentation": "Você sabe o que acontece com a pele quando fazemos um peeling? Vamos entender um pouquinho melhor. A palavra 'peeling' vem do inglês 'to peel' (descamar ou renovar), mas hoje a estética trabalha com muito mais inteligência do que simplesmente fazer a pele descascar.",
+      "whatIsIt": "O peeling químico é um procedimento onde aplicamos substâncias ácidas ou antioxidantes sobre a pele para promover uma renovação acelerada e organizada das suas camadas superficiais, além de modular funções importantes como a produção de melanina (pigmento) e a atividade das glândulas sebáceas.",
+      "howItWorks": "Nossa pele se renova naturalmente a cada 28 dias, aproximadamente. Porém, quando temos manchas de espinhas, melasma, excesso de sol ou acne, esse processo pode ficar desregulado, acumulando pigmento e células na superfície. Os ácidos do peeling afrouxam as 'pontes' que prendem as células antigas e enviam estímulos químicos para que células novas, saudáveis e com pigmentação mais uniforme subam para a superfície.",
+      "indications": [
+        "Manchas pós-inflamatórias (aquelas manchinhas que ficam depois que a espinha some)",
+        "Auxílio no gerenciamento de melasma e manchas solares (melanoses)",
+        "Controle da oleosidade e da acne ativa comedoniana/inflamatória",
+        "Pele sem viço, com textura irregular ou linhas finas superficiais"
+      ],
+      "expectedBenefits": [
+        "Clareamento progressivo de manchas e tom de pele mais homogêneo",
+        "Redução da oleosidade e de lesões de acne",
+        "Pele mais luminosa, macia e com textura refinada",
+        "Estímulo constante à renovação celular saudável"
+      ],
+      "howItIsPerformed": "Após preparar e higienizar a pele em consultório, aplicamos a solução química escolhida especificamente para o seu objetivo. O procedimento é rápido (cerca de 30 a 45 minutos) e você pode sentir um leve pinicamento ou aquecimento temporário totalmente monitorado.",
+      "preCare": [
+        "Avaliação prévia para escolha do ácido compatível com o seu fototipo.",
+        "Suspensão de ácidos domiciliares de 5 a 7 dias antes da sessão.",
+        "Evitar sol intenso, depilação facial ou esfoliantes na semana anterior."
+      ],
+      "postCare": [
+        "Manter a pele super hidratada com o creme reparador recomendado.",
+        "Usar protetor solar com rigor todos os dias.",
+        "Nunca puxar ou arrancar pelinhas caso haja descamação — isso é fundamental para evitar novas manchas."
+      ],
+      "contraindications": [
+        "Gestantes e lactantes (salvo ativos específicos liberados após avaliação criteriosa).",
+        "Herpes simples ativo ou feridas abertas na área de tratamento.",
+        "Exposição solar recente ou programada para os dias seguintes.",
+        "Histórico recente de uso de isotretinoína oral (avaliar caso a caso)."
+      ],
+      "faqs": [
+        {
+          "question": "Se minha pele não descamar muito, significa que o peeling não funcionou?",
+          "answer": "De forma alguma! A descamação visível em folhas não é sinônimo de resultado melhor. Muitos ácidos atuam dentro das células regulando a melanina e a inflamação com uma descamação microscópica que você nem vê a olho nu, mas sente na qualidade e no tom da pele!"
+        }
+      ]
+    },
+    {
+      "id": "proc-microagulhamento",
+      "slug": "microagulhamento",
+      "order": 4,
+      "published": true,
+      "featuredOnHome": true,
+      "name": "Microagulhamento",
+      "category": "Estímulo de Colágeno & Textura",
+      "shortDescription": "Indução de colágeno e permeação de ativos para tratar cicatrizes de acne, poros aparentes e melhorar a firmeza e qualidade da pele.",
+      "imageUrl": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85",
+      "imageAlt": "Cuidado estético focado na textura e regeneração da pele",
+      "presentation": "Sabe quando a gente quer melhorar a estrutura da pele de dentro para fora — especialmente quando existem cicatrizes de acne, poros mais aparentes ou linhas finas? O microagulhamento é uma das técnicas mais estudadas na ciência estética para despertar a capacidade natural de regeneração da nossa pele.",
+      "whatIsIt": "Também chamado cientificamente de Terapia de Indução Percutânea de Colágeno (TIPC), o microagulhamento consiste em realizar microperfurações milimétricas e controladas na pele utilizando um dispositivo estéril com microagulhas muito finas, associando a aplicação de ativos estéreis (drug delivery).",
+      "howItWorks": "Quando fazemos esses microcanais na pele, o nosso organismo entende que precisa reparar aquela região. Ele libera fatores de crescimento naturais que ativam os fibroblastos a produzirem colágeno novo e organizado (colágeno tipo I e III). Além disso, os microcanais funcionam como 'portas abertas' temporárias que levam ativos regeneradores e clareadores diretamente para onde eles precisam agir.",
+      "indications": [
+        "Cicatrizes atróficas de acne (marquinhas afundadas na pele)",
+        "Poros dilatados e textura irregular da pele",
+        "Linhas finas de expressão e prevenção da flacidez tissular leve",
+        "Suporte no tratamento de manchas e rejuvenescimento global da qualidade da pele"
+      ],
+      "expectedBenefits": [
+        "Suavização gradual da profundidade das cicatrizes de acne",
+        "Aumento da espessura dérmica, firmeza e elasticidade da pele",
+        "Refinamento visível da textura e dos poros",
+        "Melhora da qualidade e do viço da pele a médio e longo prazo"
+      ],
+      "howItIsPerformed": "Realizado em consultório sob rigorosa biossegurança. Primeiro aplicamos um creme anestésico tópico e aguardamos agir para o seu conforto. Com a pele higienizada e asséptica, realizamos o microagulhamento com equipamento estéril e descartável, aplicando em seguida os ativos estéreis específicos para a necessidade da sua pele.",
+      "preCare": [
+        "Avaliação prévia obrigatória (a pele não pode estar com acne inflamatória ativa).",
+        "Pausar o uso de ácidos em casa de 5 a 7 dias antes.",
+        "Evitar exposição solar nos dias anteriores."
+      ],
+      "postCare": [
+        "Cuidados específicos nas primeiras 24h (higienização suave e uso exclusivo dos produtos reparadores recomendados).",
+        "Aguardar o fechamento dos microcanais (geralmente 24h) antes de retomar o protetor solar e maquiagem.",
+        "Evitar sol direto, calor intenso, piscina e exercícios físicos intensos nas primeiras 48 a 72 horas."
+      ],
+      "contraindications": [
+        "Acne ativa com pústulas (espinhas com pus) ou nódulos inflamados.",
+        "Histórico de queloides ou cicatrização anormal.",
+        "Herpes ativo, rosácea inflamada ou infecções cutâneas.",
+        "Gestação, alterações de coagulação ou uso de anticoagulantes."
+      ],
+      "faqs": [
+        {
+          "question": "Como a pele fica nos dias seguintes ao microagulhamento?",
+          "answer": "Nas primeiras 24 a 48 horas, a pele fica avermelhada (parecendo que você tomou um pouco de sol) e com sensação de leve aquecimento ou ressecamento. Em poucos dias essa vermelhidão cede, dando lugar a uma pele renovada enquanto o colágeno continua sendo produzido nas semanas seguintes."
+        }
+      ]
+    }
+  ],
+  "articleCategories": [
+    {
+      "id": "cat-skin-talks",
+      "slug": "skin-talks",
+      "name": "Skin Talks",
+      "tagline": "Conversas sobre o funcionamento da pele",
+      "description": "Entenda o que acontece dentro da sua pele no dia a dia: acne, manchas, barreira cutânea, poros e cicatrizes explicados como em uma conversa entre amigas."
+    },
+    {
+      "id": "cat-beauty-radar",
+      "slug": "beauty-radar",
+      "name": "Beauty Radar",
+      "tagline": "Tendências, ativos e novidades da estética",
+      "description": "O que está sendo estudado na ciência estética, os ativos que estão ganhando destaque e as tendências que priorizam a saúde e a naturalidade da pele."
+    },
+    {
+      "id": "cat-science-behind",
+      "slug": "the-science-behind",
+      "name": "The Science Behind",
+      "tagline": "A ciência por trás dos procedimentos e produtos",
+      "description": "Como o colágeno é produzido? O que acontece durante um peeling? Descubra a biologia por trás dos cuidados estéticos sem complicação."
+    },
+    {
+      "id": "cat-skin-routine",
+      "slug": "skin-routine",
+      "name": "Skin Routine",
+      "tagline": "Cuidados diários possíveis e conscientes",
+      "description": "Dicas práticas sobre rotina de skincare, ordem dos produtos, escolha do protetor solar e cuidados essenciais antes e depois de procedimentos."
+    },
+    {
+      "id": "cat-myth-fact",
+      "slug": "myth-or-fact",
+      "name": "Myth or Fact",
+      "tagline": "O que é mito e o que é ciência na internet",
+      "description": "Esclarecendo dúvidas famosas que circulam nas redes sociais com leveza, acolhimento e embasamento científico."
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "slug": "por-que-algumas-espinhas-deixam-manchas",
+      "status": "published",
+      "featured": true,
+      "title": "Por que algumas espinhas deixam manchas que parecem não querer sair??????",
+      "subtitle": "Já aconteceu de uma espinha finalmente desaparecer, mas deixar uma manchinha escura ou avermelhada no lugar? Isso tem uma explicação biológica — e entender como ela surge muda a forma como cuidamos da pele.",
+      "categorySlug": "skin-talks",
+      "coverImageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=85",
+      "coverImageAlt": "Mulher observando a pele com luz natural suave",
+      "excerpt": "Você já percebeu que algumas espinhas vão embora, mas deixam marcas que parecem demorar meses para sumir? Vamos conversar sobre a hiperpigmentação pós-inflamatória.",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-11-12",
+      "readingTimeMinutes": 5,
+      "sections": [
+        {
+          "heading": "Aquela visita que vai embora, mas deixa lembrança",
+          "paragraphs": [
+            "Você já percebeu que algumas espinhas vão embora, mas deixam marcas que parecem não querer sair da sua pele? Às vezes a espinha nem foi tão grande assim, ou você até resistiu à tentação de espremer no espelho, e mesmo assim ficou um pontinho acastanhado ou avermelhado exatamente onde ela estava.",
+            "Se isso acontece com você, a primeira coisa que quero te dizer é: você não está fazendo nada de errado, e a sua pele não está 'estragada'. Na verdade, essa manchinha é o resultado de um mecanismo natural de defesa da própria pele."
+          ]
+        },
+        {
+          "heading": "O que acontece lá dentro da pele? (Sem complicar!)",
+          "paragraphs": [
+            "Uma espinha nada mais é do que uma pequena inflamação acontecendo dentro do poro (o folículo pilossebáceo). Para defender aquela região e resolver o problema, o nosso corpo envia células de defesa e substâncias químicas chamadas mediadores inflamatórios.",
+            "Acontece que bem ali pertinho moram os melanócitos — as células que fabricam a melanina, o pigmento que dá cor à nossa pele e nos protege da radiação solar. Quando há inflamação, esses mediadores acabam 'acordando' e estimulando os melanócitos a produzirem mais pigmento naquele ponto específico.",
+            "Na Biomedicina e na Dermatologia, damos a esse processo o nome de Hiperpigmentação Pós-Inflamatória (ou simplesmente HPI). Ou seja: é um excesso de pigmento que surgiu como resposta a uma inflamação prévia."
+          ],
+          "highlightBox": {
+            "title": "Mancha avermelhada x Mancha acastanhada",
+            "text": "Logo que a espinha seca, é comum notar uma marquinha mais rosada ou vermelha (chamada de eritema pós-inflamatório, ligada aos pequenos vasinhos dilatados na reparação). Já a mancha marrom ou acastanhada é a HPI propriamente dita, causada pelo acúmulo de melanina — muito comum em peles morenas, negras e latinas!"
+          }
+        },
+        {
+          "heading": "Por que espremer piora tanto as manchas?",
+          "paragraphs": [
+            "Sabe quando a gente aperta uma espinha com força? Além do risco de levar bactérias das unhas para o local, a pressão mecânica funciona como um 'segundo trauma'. A inflamação, que antes era pequena, fica muito maior — e quanto maior a inflamação, mais os melanócitos são estimulados a produzir pigmento.",
+            "E tem mais um detalhe importante: quando o sol bate nessa região que está cicatrizando sem proteção solar adequada, a radiação ultravioleta e até a luz visível dão um 'empurrãozinho' extra para fixar essa mancha por muito mais tempo."
+          ]
+        },
+        {
+          "heading": "Como ajudar a pele a clarear essas manchinhas com segurança?",
+          "paragraphs": [
+            "A boa notícia é que as manchas pós-inflamatórias de acne tendem a responder super bem aos cuidados corretos! Mas o segredo não é usar uma receita agressiva para 'descascar' a pele do dia para a noite (porque agredir a pele gera mais inflamação, lembra?)."
+          ],
+          "bulletList": [
+            "Fotoproteção diária: O protetor solar (especialmente com cor, quando você se adapta bem a ele) é o melhor amigo de quem quer clarear manchas de acne, pois impede que a luz continue estimulando aquele melanócito sensível.",
+            "Tratar a inflamação na origem: Evitar que novas espinhas surjam e desinflamar as existentes com uma rotina de skincare gentil.",
+            "Ativos despigmentantes e renovadores: Ingredientes como niacinamida, ácido azelaico, ácido mandélico, vitamina C e alfa-hidroxiácidos ajudam a organizar a produção de melanina e renovar as células pigmentadas.",
+            "Procedimentos em consultório: Os peelings químicos personalizados e a limpeza de pele cuidadosa aceleram muito esse processo de renovação, sempre respeitando o seu fototipo."
+          ]
+        }
+      ],
+      "conclusion": "Tratar manchas de espinhas é uma caminhada de parceria com a sua pele. Com paciência, proteção solar e os ativos certos para o seu momento, a pele vai renovando suas camadas e recuperando sua luminosidade natural.",
+      "references": [
+        {
+          "authors": "Davis EC, Callender VD.",
+          "title": "Postinflammatory hyperpigmentation: a review of the epidemiology, clinical features, and treatment options in skin of color.",
+          "journal": "The Journal of Clinical and Aesthetic Dermatology",
+          "year": "2010",
+          "doiOrUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2921758/"
+        },
+        {
+          "authors": "Silpa-Archa N, Kohli I, Chaowattanapanit S, Lim HW, Hamzavi I.",
+          "title": "Postinflammatory hyperpigmentation: A comprehensive overview: Epidemiology, pathogenesis, clinical presentation, and noninvasive assessment technique.",
+          "journal": "Journal of the American Academy of Dermatology",
+          "year": "2017",
+          "doiOrUrl": "https://doi.org/10.1016/j.jaad.2017.01.035"
+        }
+      ]
+    },
+    {
+      "id": "art-2",
+      "slug": "o-que-acontece-com-a-pele-durante-um-peeling",
+      "status": "published",
+      "featured": true,
+      "title": "Você sabe o que acontece com a pele quando fazemos um peeling químico?",
+      "subtitle": "Muito além da descamação visível: descubra como os ácidos conversam com as células da sua pele para renovar a textura, suavizar manchas e devolver o viço.",
+      "categorySlug": "the-science-behind",
+      "coverImageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=85",
+      "coverImageAlt": "Textura translúcida de sérum e ativos dermatológicos",
+      "excerpt": "Entenda de um jeito simples como os peelings químicos modernos atuam na renovação celular e por que você não precisa ficar com o rosto descamando em placas para ter resultados lindos.",
+      "publishedAt": "2026-10-25",
+      "readingTimeMinutes": 6,
+      "sections": [
+        {
+          "heading": "Desmistificando a palavra 'Peeling'",
+          "paragraphs": [
+            "Quando alguém fala em 'peeling químico', qual é a primeira imagem que vem à sua cabeça? Para muita gente, é aquela cena de filmes antigos em que a pessoa sai do consultório com o rosto super vermelho e passa uma semana inteira escondida em casa enquanto a pele solta pedaços enormes.",
+            "Mas deixa eu te contar uma coisa muito legal: a ciência da cosmetologia e da estética evoluiu demais nos últimos anos. Hoje, nós compreendemos que não é preciso causar uma agressão intensa para que a pele se renove com eficiência."
+          ]
+        },
+        {
+          "heading": "O ciclo natural de renovação da pele",
+          "paragraphs": [
+            "A camada mais externa da nossa pele, chamada epiderme, funciona como uma fábrica em constante movimento. Lá na base dela, células novinhas (os queratinócitos) nascem todos os dias e vão subindo lentamente até chegarem na superfície, onde formam o estrato córneo — nosso escudo protetor.",
+            "Naturalmente, esse ciclo leva cerca de 28 dias. Porém, com o estresse, o excesso de sol, a oleosidade ou o passar dos anos, essa renovação pode ficar mais preguiçosa. As células antigas demoram a se desprender, deixando a pele com aspecto opaco, áspero, poros mais evidentes e manchinhas acumuladas."
+          ]
+        },
+        {
+          "heading": "Como o ácido age nesse processo?",
+          "paragraphs": [
+            "As células da camada superficial da pele ficam unidas umas às outras por pequenas estruturas que funcionam como um 'cimento' ou 'velcro' celular (os corneodesmossomos). Quando aplicamos um peeling químico em consultório, os ácidos diminuem temporariamente a força dessas ligações.",
+            "Com isso, as células que já estavam prontas para sair se desprendem de maneira uniforme e organizada. E o mais bonito: a base da epiderme recebe o recado de que precisa produzir células novas, mais hidratadas e com o pigmento melhor distribuído!"
+          ],
+          "highlightBox": {
+            "title": "Cada ácido tem uma 'personalidade' diferente",
+            "text": "O Ácido Mandélico tem uma molécula maior, penetrando devagar e com muita segurança em peles propensas a manchas; o Ácido Salicílico tem afinidade por óleo, entrando dentro do poro para ajudar na acne; já o Ácido Glicólico é pequenininho e excelente para estimular a renovação e a hidratação. Na avaliação, escolhemos exatamente o que a sua pele pede!"
+          }
+        },
+        {
+          "heading": "Descamação microscópica vs. Descamação visível",
+          "paragraphs": [
+            "É por isso que sempre explico no consultório: se a sua pele descamar apenas como uma 'farinhazinha' fina ou nem descamar de forma visível, o peeling funcionou sim! A renovação celular e a ação antioxidante/clareadora acontecem em nível microscópico e bioquímico."
+          ]
+        }
+      ],
+      "conclusion": "O melhor peeling químico é aquele que respeita a barreira da sua pele, se encaixa na sua rotina real e constrói resultados sólidos e seguros sessão após sessão.",
+      "references": [
+        {
+          "authors": "Soleymani T, Lanoue J, Rahman Z.",
+          "title": "A Practical Approach to Chemical Peels: A Review of Fundamentals and Step-by-step Algorithmic Protocol for Treatment.",
+          "journal": "The Journal of Clinical and Aesthetic Dermatology",
+          "year": "2018",
+          "doiOrUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6122508/"
+        }
+      ]
+    },
+    {
+      "id": "art-3",
+      "slug": "agua-gelada-fecha-os-poros-e-outros-mitos",
+      "status": "published",
+      "featured": true,
+      "title": "Água gelada fecha os poros? Pele oleosa não precisa de hidratante?",
+      "subtitle": "Vamos conversar sobre 4 afirmações super famosas na internet e separar o que é mito do que realmente faz sentido segundo a ciência da pele.",
+      "categorySlug": "myth-or-fact",
+      "coverImageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=85",
+      "coverImageAlt": "Rotina de skincare minimalista e iluminada",
+      "excerpt": "Tem tanta informação circulando nas redes sociais que às vezes fica difícil saber no que acreditar. Vamos esclarecer juntas algumas das maiores dúvidas do skincare!",
+      "publishedAt": "2026-10-30",
+      "readingTimeMinutes": 5,
+      "sections": [
+        {
+          "heading": "1. 'Lavar o rosto com água gelada fecha os poros'",
+          "paragraphs": [
+            "Veredito: MITO (mas a água fria ainda tem seu valor!).",
+            "Poros não possuem músculos ao redor deles; por isso, eles não conseguem 'abrir' e 'fechar' como uma janela. O tamanho dos nossos poros é determinado principalmente pela genética, pela produção de sebo e pela firmeza do colágeno ao redor do folículo.",
+            "O que a água fria faz é contrair temporariamente os pequenos vasos sanguíneos da pele (vasoconstrição), reduzindo o inchaço matinal e evitando o ressecamento que a água muito quente causa. Já para deixar os poros menos aparentes de verdade, o segredo é mantê-los limpos (sem excesso de sebo oxidado) e cuidar do colágeno!"
+          ]
+        },
+        {
+          "heading": "2. 'Quem tem pele oleosa não precisa usar hidratante'",
+          "paragraphs": [
+            "Veredito: MITO!",
+            "Essa é uma confusão super compreensível porque costumamos misturar 'óleo' com 'água'. A pele oleosa produz excesso de sebo (lipídios), mas pode estar — e muitas vezes está! — desidratada, ou seja, com falta de água no estrato córneo.",
+            "Quando lavamos o rosto várias vezes ao dia com sabonetes muito agressivos e não devolvemos hidratação, a barreira cutânea fica fragilizada e mais irritada. O segredo para a pele oleosa não é pular o hidratante, mas escolher texturas leves em gel, sérum ou loção oil-free com ativos como niacinamida e ácido hialurônico."
+          ]
+        },
+        {
+          "heading": "3. 'Quanto mais produtos na rotina, melhor fica a pele'",
+          "paragraphs": [
+            "Veredito: MITO!",
+            "Você não precisa de uma rotina de 10 passos para ter uma pele bem cuidada. Na prática clínica, vejo muitas peles sensibilizadas justamente pelo excesso de ativos conflitantes usados ao mesmo tempo.",
+            "O básico bem feito — limpeza gentil, hidratação adequada ao seu tipo de pele e proteção solar todos os dias, somado a um ativo de tratamento noturno bem escolhido — costuma entregar resultados muito mais consistentes do que uma prateleira cheia usada sem direção."
+          ],
+          "highlightBox": {
+            "title": "Dica de ouro da Gabi",
+            "text": "A melhor rotina de skincare do mundo é aquela que você realmente consegue fazer todos os dias com prazer, sem pesar no seu tempo nem no seu bolso."
+          }
+        }
+      ],
+      "conclusion": "Quando entendemos como a nossa pele funciona de verdade, ficamos muito mais livres de regras complicadas e passamos a fazer escolhas mais leves e conscientes.",
+      "references": [
+        {
+          "authors": "Lee SJ, Seok J, Jeong SY, Park KY, Li K, Seo SJ.",
+          "title": "Facial Pores: Definition, Causes, and Treatment Options.",
+          "journal": "Dermatologic Surgery",
+          "year": "2016",
+          "doiOrUrl": "https://doi.org/10.1097/DSS.0000000000000657"
+        }
+      ]
+    },
+    {
+      "id": "art-4",
+      "slug": "como-montar-uma-rotina-de-skincare-sem-complicacao",
+      "status": "published",
+      "featured": false,
+      "title": "Como montar uma rotina de skincare eficiente (e qual a ordem certa dos produtos?)",
+      "subtitle": "Se você já ficou parada na frente do espelho tentando lembrar se o sérum vem antes ou depois do hidratante, este guia foi escrito pensando em você.",
+      "categorySlug": "skin-routine",
+      "coverImageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1200&q=85",
+      "coverImageAlt": "Frascos minimalistas de cuidados diários com a pele",
+      "excerpt": "Descubra os três pilares fundamentais da saúde da pele e aprenda uma regrinha simples de texturas para nunca mais ter dúvida na hora de aplicar seus produtos.",
+      "publishedAt": "2026-11-02",
+      "readingTimeMinutes": 4,
+      "sections": [
+        {
+          "heading": "Os 3 pilares que sustentam qualquer pele saudável",
+          "paragraphs": [
+            "Antes de pensar em vários séruns diferentes, imagine que a saúde da sua pele em casa se apoia em um tripé muito simples: Limpar, Hidratar e Proteger.",
+            "1. Limpar: Remover o suor, a poluição, os resíduos de protetor solar e o excesso de oleosidade sem deixar a pele 'repuxando'.",
+            "2. Hidratar: Manter a água dentro da pele e preservar a integridade da barreira cutânea.",
+            "3. Proteger: Usar o filtro solar todas as manhãs para prevenir manchas, perda de colágeno e danos celulares."
+          ]
+        },
+        {
+          "heading": "Qual é a ordem correta de aplicação?",
+          "paragraphs": [
+            "Existe uma regra prática na cosmetologia que facilita tudo: vamos sempre da textura mais leve e fluida para a textura mais densa e cremosa (deixando o protetor solar sempre como o último passo da skincare da manhã, antes da maquiagem)."
+          ],
+          "bulletList": [
+            "Manhã: 1º Sabonete facial -> 2º Sérum antioxidante/tratamento (ex: Vitamina C ou Niacinamida) -> 3º Hidratante (se necessário para o seu tipo de pele) -> 4º Protetor Solar.",
+            "Noite: 1º Demaquilante/Cleansing Oil (se usou maquiagem ou protetor resistente) + Sabonete facial -> 2º Hidratante reparador -> 3º Ativo de tratamento noturno (conforme orientação)."
+          ]
+        }
+      ],
+      "conclusion": "Comece pelo simples! Quando a sua pele se acostuma com o básico bem feito, qualquer tratamento que adicionamos depois responde de forma muito mais bonita.",
+      "references": [
+        {
+          "authors": "Draelos ZD.",
+          "title": "The science behind skin care: Cleansers and Moisturizers.",
+          "journal": "Journal of Cosmetic Dermatology",
+          "year": "2018",
+          "doiOrUrl": "https://doi.org/10.1111/jocd.12490"
+        }
+      ]
+    },
+    {
+      "id": "art-5",
+      "slug": "barreira-cutanea-e-microbioma-tendencias-estetica",
+      "status": "published",
+      "featured": false,
+      "title": "Skin Barrier & Beleza Regenerativa: por que cuidar da barreira da pele virou prioridade na estética?",
+      "subtitle": "A ciência estética está deixando para trás os procedimentos excessivamente agressivos para focar na saúde da barreira cutânea e no estímulo biológico natural.",
+      "categorySlug": "beauty-radar",
+      "coverImageUrl": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85",
+      "coverImageAlt": "Pele iluminada e saudável com foco em textura natural",
+      "excerpt": "Conheça o movimento da estética regenerativa e entenda por que fortalecer o escudo natural da sua pele é o segredo para resultados mais bonitos e duradouros.",
+      "publishedAt": "2026-11-08",
+      "readingTimeMinutes": 5,
+      "sections": [
+        {
+          "heading": "O fim da era do 'quanto mais agressivo, melhor'",
+          "paragraphs": [
+            "Durante muito tempo, existiu uma ideia de que para melhorar a pele era preciso 'atacar' os problemas com esfoliações diárias, adstringentes cheios de álcool e procedimentos que deixavam a pele extremamente sensibilizada.",
+            "Hoje, os congressos e estudos científicos apontam para outra direção muito mais inteligente: a estética regenerativa e o respeito à barreira cutânea."
+          ]
+        },
+        {
+          "heading": "O que é a barreira cutânea?",
+          "paragraphs": [
+            "Imagine uma parede de tijolos muito bem construída: as células da camada mais externa da sua pele são os tijolos, e os lipídios naturais (ceramidas, ácidos graxos e colesterol) são o cimento que une tudo. Essa estrutura impede que a água da nossa pele evapore e bloqueia a entrada de microrganismos e agentes irritantes.",
+            "Quando essa barreira está íntegra, a pele reflete a luz de um jeito bonito (aquele viço natural!), inflama menos e responde infinitamente melhor ao microagulhamento e aos peelings químicos."
+          ]
+        }
+      ],
+      "conclusion": "Cuidar da beleza hoje é trabalhar a favor da biologia da sua pele, nunca contra ela.",
+      "references": [
+        {
+          "authors": "Rosso JD, Zeichner J, Alexis A, Cohen D, Berson D.",
+          "title": "Understanding the Epidermal Barrier in Healthy and Compromised Skin: Clinically Relevant Information for the Dermatology Practitioner.",
+          "journal": "The Journal of Clinical and Aesthetic Dermatology",
+          "year": "2016",
+          "doiOrUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5608132/"
+        }
+      ]
+    }
+  ],
+  "contactSubmissions": []
+}

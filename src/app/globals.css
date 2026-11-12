@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-wine: #481D2D;
+    --color-gold: #B18A50;
+    --color-champagne: #E8D8C3;
+    --color-offwhite: #FAF7F2;
+    --color-graphite: #241C20;
+    --font-cormorant: "Cormorant Garamond", Georgia, serif;
+    --font-dm-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #E8D8C3;
+    color: #241C20;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F2E8DA;
+    color: #241C20;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-cormorant), Georgia, serif;
+  }
+
+  ::selection {
+    background-color: #481D2D;
+    color: #E8D8C3;
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@layer components {
+  .editorial-divider {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      rgba(177, 138, 80, 0) 0%,
+      rgba(177, 138, 80, 0.65) 50%,
+      rgba(177, 138, 80, 0) 100%
+    );
+  }
+
+  .gold-hairline {
+    border-color: rgba(177, 138, 80, 0.4);
+  }
+
+  /* Botão Principal Vinho com brilho dourado ao passar o mouse e elevação */
+  .btn-wine {
+    @apply relative overflow-hidden inline-flex items-center justify-center gap-2.5 bg-wine text-champagne px-7 py-4 rounded-full text-sm font-medium tracking-wider border border-gold/50 transition-all duration-500 ease-out hover:bg-wine-light hover:text-offwhite hover:border-gold hover:-translate-y-1 hover:shadow-[0_14px_30px_-6px_rgba(72,29,45,0.55)] active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-gold/60;
+  }
+
+  .btn-wine::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(232, 216, 195, 0.28),
+      transparent
+    );
+    transform: translateX(-140%) skewX(-18deg);
+    transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
+  }
+
+  .btn-wine:hover::after {
+    transform: translateX(280%) skewX(-18deg);
+  }
+
+  /* Botão Champagne / Dourado para fundos Vinho */
+  .btn-champagne-glow {
+    @apply relative overflow-hidden inline-flex items-center justify-center gap-2.5 bg-champagne text-wine px-7 py-4 rounded-full text-sm font-medium tracking-wider border border-gold transition-all duration-500 ease-out hover:bg-gold hover:text-wine-dark hover:-translate-y-1 hover:shadow-[0_14px_32px_-6px_rgba(177,138,80,0.5)] active:translate-y-0;
+  }
+
+  .btn-champagne-glow::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.45),
+      transparent
+    );
+    transform: translateX(-140%) skewX(-18deg);
+    transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
+  }
+
+  .btn-champagne-glow:hover::after {
+    transform: translateX(280%) skewX(-18deg);
+  }
+
+  /* Botão Contorno Vinho que preenche com Vinho no hover */
+  .btn-outline-wine {
+    @apply relative overflow-hidden inline-flex items-center justify-center gap-2.5 border border-wine/60 text-wine bg-champagne/40 px-7 py-4 rounded-full text-sm font-medium tracking-wider transition-all duration-500 ease-out hover:border-gold hover:bg-wine hover:text-champagne hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(72,29,45,0.4)] focus:outline-none focus:ring-2 focus:ring-gold/50;
+  }
+
+  /* Botão Dourado Sutil com transição rica */
+  .btn-gold-subtle {
+    @apply relative overflow-hidden inline-flex items-center justify-center gap-2.5 border border-gold/70 text-champagne bg-wine-dark/70 backdrop-blur-sm px-7 py-4 rounded-full text-sm font-medium tracking-wider transition-all duration-500 ease-out hover:bg-champagne hover:text-wine hover:border-gold hover:-translate-y-1 hover:shadow-[0_12px_28px_-6px_rgba(177,138,80,0.4)];
+  }
+
+  /* Card Editorial interativo */
+  .editorial-card-hover {
+    @apply transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_20px_40px_-12px_rgba(72,29,45,0.28)] hover:border-gold;
+  }
+}
