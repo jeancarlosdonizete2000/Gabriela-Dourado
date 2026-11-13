@@ -30,6 +30,7 @@ import {
   GoldenEssenceProtocol,
   ArticleCategory,
 } from "@/lib/types";
+import { ImageUploader } from "@/components/ImageUploader";
 
 type AdminTab =
   | "articles"
@@ -103,7 +104,7 @@ export default function AdminDashboardPage() {
         setAuthenticated(true);
       } else {
         setAuthError(
-          "Senha inválida. (Dica inicial: gabriela2026)"
+          "Senha inválida."
         );
       }
     } catch {
@@ -197,10 +198,6 @@ export default function AdminDashboardPage() {
                 placeholder="Digite sua senha..."
                 className="w-full px-4 py-3 rounded-xl bg-offwhite border border-gold/40 text-sm focus:outline-none focus:border-wine"
               />
-              <p className="text-[11px] text-graphite-light">
-                Senha padrão inicial de entrega:{" "}
-                <code className="text-wine font-medium">gabriela2026</code>
-              </p>
             </div>
 
             <button type="submit" className="w-full btn-wine justify-center">
@@ -695,20 +692,16 @@ export default function AdminDashboardPage() {
                     />
                   </div>
 
-                  <div className="md:col-span-2 space-y-1">
-                    <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                      URL da Imagem de Capa
-                    </label>
-                    <input
-                      type="text"
+                  <div className="md:col-span-2">
+                    <ImageUploader
+                      label="Fotografia de Capa do Artigo"
                       value={editingArticle.coverImageUrl}
-                      onChange={(e) =>
+                      onChange={(newImg) =>
                         setEditingArticle({
                           ...editingArticle,
-                          coverImageUrl: e.target.value,
+                          coverImageUrl: newImg,
                         })
                       }
-                      className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
                     />
                   </div>
 
@@ -1213,20 +1206,16 @@ export default function AdminDashboardPage() {
                     />
                   </div>
 
-                  <div className="md:col-span-2 space-y-1">
-                    <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                      URL da Fotografia Principal
-                    </label>
-                    <input
-                      type="text"
+                  <div className="md:col-span-2">
+                    <ImageUploader
+                      label="Fotografia Principal do Procedimento"
                       value={editingProcedure.imageUrl}
-                      onChange={(e) =>
+                      onChange={(newImg) =>
                         setEditingProcedure({
                           ...editingProcedure,
-                          imageUrl: e.target.value,
+                          imageUrl: newImg,
                         })
                       }
-                      className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
                     />
                   </div>
 
@@ -1545,6 +1534,43 @@ export default function AdminDashboardPage() {
               )}
             </div>
 
+            {/* Hero Principal da Coleção Golden Essence */}
+            {!editingProtocol && (
+              <div className="bg-offwhite-pure p-8 rounded-3xl border border-gold/35 shadow-card space-y-5">
+                <h3 className="font-serif text-2xl text-wine">
+                  Apresentação Geral da Página Golden Essence
+                </h3>
+                <ImageUploader
+                  label="Fotografia de Destaque da Coleção Golden Essence"
+                  value={db.goldenEssencePage.heroImageUrl}
+                  aspectRatioClass="aspect-[4/5]"
+                  onChange={(newImg) =>
+                    setDb({
+                      ...db,
+                      goldenEssencePage: {
+                        ...db.goldenEssencePage,
+                        heroImageUrl: newImg,
+                      },
+                    })
+                  }
+                />
+                <button
+                  type="button"
+                  disabled={saving}
+                  onClick={() =>
+                    persistDatabase(
+                      db,
+                      "Foto da página Golden Essence atualizada!"
+                    )
+                  }
+                  className="btn-wine"
+                >
+                  <Save className="w-4 h-4" />
+                  <span>Salvar Apresentação Golden Essence</span>
+                </button>
+              </div>
+            )}
+
             {editingProtocol ? (
               <div className="bg-offwhite-pure p-8 rounded-3xl border border-gold/40 shadow-card space-y-5">
                 <h3 className="font-serif text-2xl text-wine">
@@ -1603,20 +1629,16 @@ export default function AdminDashboardPage() {
                     />
                   </div>
 
-                  <div className="md:col-span-2 space-y-1">
-                    <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                      URL da Fotografia do Protocolo
-                    </label>
-                    <input
-                      type="text"
+                  <div className="md:col-span-2">
+                    <ImageUploader
+                      label="Fotografia do Protocolo Golden Essence"
                       value={editingProtocol.imageUrl}
-                      onChange={(e) =>
+                      onChange={(newImg) =>
                         setEditingProtocol({
                           ...editingProtocol,
-                          imageUrl: e.target.value,
+                          imageUrl: newImg,
                         })
                       }
-                      className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
                     />
                   </div>
 
@@ -1805,23 +1827,20 @@ export default function AdminDashboardPage() {
                   />
                 </div>
 
-                <div className="space-y-1">
-                  <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                    Fotografia Principal (URL)
-                  </label>
-                  <input
-                    type="text"
+                <div className="md:col-span-2">
+                  <ImageUploader
+                    label="Fotografia Principal da Gabriela (Hero Topo do Site)"
                     value={db.home.hero.imageUrl}
-                    onChange={(e) =>
+                    aspectRatioClass="aspect-[4/5]"
+                    onChange={(newImg) =>
                       setDb({
                         ...db,
                         home: {
                           ...db.home,
-                          hero: { ...db.home.hero, imageUrl: e.target.value },
+                          hero: { ...db.home.hero, imageUrl: newImg },
                         },
                       })
                     }
-                    className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
                   />
                 </div>
 
@@ -1895,56 +1914,46 @@ export default function AdminDashboardPage() {
                     className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
                   />
                 </div>
-                <div className="space-y-1">
-                  <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                    URL da Fotografia Golden Essence na Home
-                  </label>
-                  <input
-                    type="text"
-                    value={db.home.goldenEssenceSection.imageUrl}
-                    onChange={(e) =>
-                      setDb({
-                        ...db,
-                        home: {
-                          ...db.home,
-                          goldenEssenceSection: {
-                            ...db.home.goldenEssenceSection,
-                            imageUrl: e.target.value,
-                          },
+                <ImageUploader
+                  label="Fotografia Golden Essence na Página Inicial"
+                  value={db.home.goldenEssenceSection.imageUrl}
+                  aspectRatioClass="aspect-[4/5]"
+                  onChange={(newImg) =>
+                    setDb({
+                      ...db,
+                      home: {
+                        ...db.home,
+                        goldenEssenceSection: {
+                          ...db.home.goldenEssenceSection,
+                          imageUrl: newImg,
                         },
-                      })
-                    }
-                    className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
-                  />
-                </div>
+                      },
+                    })
+                  }
+                />
               </div>
 
               <h3 className="font-serif text-2xl text-wine pt-4 border-t border-gold/25">
                 Seção 5 & 6: Apresentação Gabriela & Chamada de Contato
               </h3>
               <div className="grid grid-cols-1 gap-4">
-                <div className="space-y-1">
-                  <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                    URL da Foto da Gabriela (Seção Sobre na Home)
-                  </label>
-                  <input
-                    type="text"
-                    value={db.home.aboutSection.imageUrl}
-                    onChange={(e) =>
-                      setDb({
-                        ...db,
-                        home: {
-                          ...db.home,
-                          aboutSection: {
-                            ...db.home.aboutSection,
-                            imageUrl: e.target.value,
-                          },
+                <ImageUploader
+                  label="Fotografia da Gabriela (Seção Sobre na Página Inicial)"
+                  value={db.home.aboutSection.imageUrl}
+                  aspectRatioClass="aspect-[4/5]"
+                  onChange={(newImg) =>
+                    setDb({
+                      ...db,
+                      home: {
+                        ...db.home,
+                        aboutSection: {
+                          ...db.home.aboutSection,
+                          imageUrl: newImg,
                         },
-                      })
-                    }
-                    className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
-                  />
-                </div>
+                      },
+                    })
+                  }
+                />
                 <div className="space-y-1">
                   <label className="text-xs uppercase tracking-wider text-wine font-medium">
                     Chamada de Contato no Rodapé da Home
@@ -2016,22 +2025,17 @@ export default function AdminDashboardPage() {
                 />
               </div>
 
-              <div className="space-y-1">
-                <label className="text-xs uppercase tracking-wider text-wine font-medium">
-                  URL da Fotografia Profissional da Gabriela
-                </label>
-                <input
-                  type="text"
-                  value={db.about.heroImageUrl}
-                  onChange={(e) =>
-                    setDb({
-                      ...db,
-                      about: { ...db.about, heroImageUrl: e.target.value },
-                    })
-                  }
-                  className="w-full px-4 py-2.5 rounded-xl bg-offwhite border border-gold/35 text-sm"
-                />
-              </div>
+              <ImageUploader
+                label="Fotografia Profissional da Gabriela (Página Sobre)"
+                value={db.about.heroImageUrl}
+                aspectRatioClass="aspect-[4/5]"
+                onChange={(newImg) =>
+                  setDb({
+                    ...db,
+                    about: { ...db.about, heroImageUrl: newImg },
+                  })
+                }
+              />
 
               <div className="space-y-1">
                 <label className="text-xs uppercase tracking-wider text-wine font-medium">
@@ -2386,10 +2390,11 @@ export default function AdminDashboardPage() {
                   4. Trocando Fotos e WhatsApp
                 </h3>
                 <p className="text-sm text-graphite-muted leading-relaxed">
-                  Para colocar suas fotografias profissionais na carpeta{" "}
-                  <code>public/fotos</code> do projeto, basta usar o caminho{" "}
-                  <code>/fotos/nome-da-foto.jpg</code> nos campos de imagem, ou
-                  colar o link direto da imagem. Na aba{" "}
+                  Em qualquer seção do painel, clique no botão{" "}
+                  <strong>Escolher foto no dispositivo</strong> (ou arraste a
+                  foto para a área tracejada) para anexar uma imagem direto do
+                  seu computador ou celular. Ela será otimizada e salva
+                  automaticamente no seu banco de dados MongoDB! Na aba{" "}
                   <strong>WhatsApp & Dados Gerais</strong>, você altera seu
                   número e mensagem automática em segundos.
                 </p>
