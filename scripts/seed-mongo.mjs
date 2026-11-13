@@ -2,12 +2,17 @@ import { MongoClient } from "mongodb";
 import fs from "fs";
 import path from "path";
 
-const uri =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://jeancarlosdonizete2000_db_user:QPMLZOajIS4gE94m@cluster0.9unaggq.mongodb.net/gabriela_dourado?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 const dbName = process.env.MONGODB_DB_NAME || "gabriela_dourado";
 
 async function seedMongo() {
+  if (!uri) {
+    console.error(
+      "Erro: Defina a variável de ambiente MONGODB_URI antes de executar o script de seed."
+    );
+    process.exit(1);
+  }
+
   const dbJsonPath = path.join(process.cwd(), "data", "database.json");
   const data = JSON.parse(fs.readFileSync(dbJsonPath, "utf-8"));
 
@@ -34,7 +39,9 @@ async function seedMongo() {
       if (items && items.length > 0) {
         await col.insertMany(items.map((item) => ({ ...item, _id: item.id })));
       }
-      console.log(`✔ Coleção '${colName}' sincronizada (${items?.length || 0} documentos).`);
+      console.log(
+        `✔ Coleção '${colName}' sincronizada (${items?.length || 0} documentos).`
+      );
     };
 
     await syncCol("golden_essence_protocols", data.goldenEssenceProtocols);
